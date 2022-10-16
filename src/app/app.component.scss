@@ -1,0 +1,12 @@
+@use "styles/common";
+
+:host {
+	width: 100vw;
+	height: 100vh;
+	margin-top: 4.25rem;
+	display: flex;
+	flex-flow: column;
+	overflow-x: hidden;
+	overflow-y: auto;
+	background: common.$base-color;
+}

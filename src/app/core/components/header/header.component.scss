@@ -1,0 +1,15 @@
+@use "styles/common";
+
+:host {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 4rem;
+	padding: 0 1rem;
+	display: flex;
+	flex-flow: row;
+	align-items: center;
+	background: common.$base-color-secondary;
+	border-bottom: 0.25rem solid common.$base-color-accent;
+}
